@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import './App.css';
-import TodoFeature from './components/Feature/Todo';
 
 
 
@@ -8,7 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <TodoFeature />
+      <p>Header</p>
+      <p>      <Link to='/todos'>Todo</Link>      </p>
+      <p>      <Link to='/albums'>Album</Link>      </p>
+
+      <Outlet />
+      <p>Footer</p>
     </div>
   );
 }
