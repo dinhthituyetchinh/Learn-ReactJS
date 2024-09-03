@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import AlbumFeature from './components/Feature/Album';
+import TodoFeature from './components/Feature/Todo';
+
+
 
 function App() {
 
   return (
     <div className="App">
-      {/* <TodoFeature></TodoFeature> */}
-      <AlbumFeature></AlbumFeature>
+      <TodoFeature />
     </div>
   );
 }
