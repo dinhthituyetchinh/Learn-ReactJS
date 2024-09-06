@@ -19,6 +19,7 @@ function App() {
     <div className="App">
 
       <Routes>
+
         <Route path="/home" element={<Navigate to="/" />} />
 
         {/* Redirect /post-list/:postId to /posts/:postId */}
